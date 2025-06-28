@@ -1,0 +1,20 @@
+{
+  "name": "learn-js-prototype",
+  "version": "1.0.0",
+  "description": "A project to learn about JavaScript prototypes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "javascript",
+    "prototype",
+    "vitest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^24.1.0",
+    "vitest": "^1.6.0"
+  }
+}
