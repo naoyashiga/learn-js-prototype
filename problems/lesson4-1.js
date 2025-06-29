@@ -19,7 +19,6 @@ export function createSpecializedVehicle(specificFuelType) {
   const vehicle = new Vehicle();
   // TODO: vehicleインスタンスに、プロトタイプにあるものと同じ `fuelType` という名前のプロパティを直接追加してください。
   // 値には引数 `specificFuelType` を設定します。
-  vehicle.fuelType = specificFuelType;
 
   return vehicle;
 }

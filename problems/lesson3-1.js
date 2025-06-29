@@ -17,12 +17,5 @@ export function createSpecificAnimal(specificSound) {
   // TODO: `Object.create` を使って `animalPrototype` を継承した新しいオブジェクトを作成してください。
   // TODO: 新しく作成したオブジェクトに `sound` プロパティを追加し、引数 `specificSound` の値を設定してください。
   // TODO: 作成したオブジェクトを返してください。
-  return Object.create(animalPrototype, {
-    sound: {
-      value: specificSound,
-      writable: true,
-      configurable: true,
-      enumerable: true
-    }
-  });
+  return null; // この行を修正してください
 }

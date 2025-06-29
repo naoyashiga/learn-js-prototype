@@ -1,16 +1,6 @@
 // TODO: `Character` という名前のクラスを定義してください。
 // 1. constructorで `name` と `hp` を受け取り、インスタンスのプロパティとして設定してください。
 // 2. `attack` というメソッドを定義してください。このメソッドは「[name] attacks!」という文字列を返します。
-class Character {
-  constructor(name, hp) {
-    this.name = name;
-    this.hp = hp;
-  }
-
-  attack() {
-    return `${this.name} attacks!`;
-  }
-}
 
 
 // TODO: `Character` クラスを継承した `Mage` という名前のクラスを定義してください。
@@ -18,16 +8,3 @@ class Character {
 // 2. 親クラスのconstructorを `super` を使って呼び出し、`name` と `hp` を渡してください。
 // 3. `mp` をインスタンスのプロパティとして設定してください。
 // 4. `castSpell` というメソッドを定義してください。このメソッドは「[name] casts a spell!」という文字列を返します。
-
-class Mage extends Character {
-  constructor(name, hp, mp) {
-    super(name, hp); // 親クラスのコンストラクタを呼び出す
-    this.mp = mp;   // マジックポイントをインスタンスのプロパティとして設定
-  }
-
-  castSpell() {
-    return `${this.name} casts a spell!`;
-  }
-}
-
-export { Character, Mage };

@@ -31,17 +31,5 @@ export function safeMerge(target, source) {
   // ここにあなたの実装を書いてください
   // ヒント: for...inループの中で、キーが危険なものでないかチェックします。
 
-  for (const key in source) {
-    if (source.hasOwnProperty(key)) {
-      if (key === '__proto__' || key === 'constructor' || key === 'prototype') continue;
-      // `target`と`source`の両方で、同じキーの値がオブジェクトであれば再帰的にマージ
-      if (key in target && typeof target[key] === 'object' && typeof source[key] === 'object') {
-        unsafeMerge(target[key], source[key]);
-      } else {
-        // そうでなければ、`source`の値を`target`に設定
-        target[key] = source[key];
-      }
-    }
-  }
   return target; // この行はプレースホルダーです
 }
