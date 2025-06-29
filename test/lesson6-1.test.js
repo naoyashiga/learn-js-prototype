@@ -1,5 +1,5 @@
 import { describe, it, expect, afterEach } from 'vitest';
-import { unsafeMerge, safeMerge } from '../lesson/lesson6-1';
+import { unsafeMerge, safeMerge } from '../my-solutions/lesson6-1';
 
 describe('Lesson 6-1: Prototype Pollution', () => {
 

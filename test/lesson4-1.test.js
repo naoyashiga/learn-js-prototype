@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { Vehicle, createSpecializedVehicle } from '../lesson/lesson4-1';
+import { Vehicle, createSpecializedVehicle } from '../my-solutions/lesson4-1';
 
 describe('Lesson 4-1: Prototype Chain and Property Shadowing', () => {
   it('a basic vehicle should inherit fuelType from its prototype', () => {

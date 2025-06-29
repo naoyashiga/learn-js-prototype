@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { Person } from '../lesson/lesson2-1';
+import { Person } from '../my-solutions/lesson2-1';
 
 describe('Lesson 2-1: Inheriting Methods via Prototype', () => {
   it('should create an instance of Person', () => {

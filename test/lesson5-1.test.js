@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 // エラーを避けるため、lesson5-1.jsが未実装でも動作するように、ダミーのクラスをインポートします。
 // 最終的には、あなたが実装したクラスがインポートされることになります。
-const { Character, Mage } = await import('../lesson/lesson5-1.js').catch(() => ({ Character: class {}, Mage: class {} }));
+const { Character, Mage } = await import('../my-solutions/lesson5-1.js').catch(() => ({ Character: class {}, Mage: class {} }));
 
 describe('Lesson 5-1: The `class` Syntax', () => {
   describe('Character Class', () => {

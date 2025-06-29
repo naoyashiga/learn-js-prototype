@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { animalPrototype, createSpecificAnimal } from '../lesson/lesson3-1';
+import { animalPrototype, createSpecificAnimal } from '../my-solutions/lesson3-1';
 
 describe('Lesson 3-1: Creating Objects with Object.create', () => {
 

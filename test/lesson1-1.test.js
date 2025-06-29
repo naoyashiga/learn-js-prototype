@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { myFunction } from '../lesson/lesson1-1';
+import { myFunction } from '../my-solutions/lesson1-1';
 
 describe('Lesson 1-1: Functions and Prototypes', () => {
   it('myFunction should have a prototype property', () => {
